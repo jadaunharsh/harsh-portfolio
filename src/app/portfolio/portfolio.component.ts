@@ -17,7 +17,7 @@ export class PortfolioComponent {
         'Contact Information: ': 'Reach out to me through the "Contact" section, where you can find my email and social media links.',
         'Continuous Updates: ': 'I frequently update my portfolio to include new projects and keep you informed about my latest endeavors.'
       },
-      image: 'assets/images/harshimg.jpg',
+      image: 'assets/images/harshportfolioimg.jpg',
     },
     {
       name: 'Material Demo',
@@ -26,7 +26,7 @@ export class PortfolioComponent {
         'Demo Tab: ': 'Demo Tab contains the 2 tab, where in 1st component my first angular youtube video is rendered and in 2nd tab formal text is written.',
         'User List: ': 'In "User List" section a material table with some dummy data is shown which have sorting, paging and filtering functionality too.',
       },
-      image: 'assets/images/harshimg.jpg',
+      image: 'assets/images/materialdemoappimg.jpg',
     },
 
   ];
