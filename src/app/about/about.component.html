@@ -1,0 +1,64 @@
+<mat-card class="detail-card">
+    <mat-card-header>
+        <div mat-card-avatar class="about-header-image"></div>
+        <mat-card-title>Harsh Pratap Singh</mat-card-title>
+        <mat-card-subtitle>A Software Engineer</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-card-title>About Me</mat-card-title>
+        <p>
+            Hi, I'm Harsh Pratap Singh, a seasoned Software Engineer with over 6 years of experience. I specialize in
+            two key technologies that drive innovation in the tech world: Angular and ASP.NET Core.
+        </p>
+        <p>My journey in the tech world has been filled with exciting projects, collaborative experiences, and a
+            commitment to staying at the forefront of industry trends.</p>
+        <mat-card-title>Who Am I?</mat-card-title>
+        <p>
+            I'm a passionate developer who thrives on turning ideas into functional and user-friendly software
+            solutions. My journey in the world of software engineering has equipped me with the knowledge, skills, and
+            determination to tackle complex problems and deliver high-quality results.
+        </p>
+        <mat-card-title>My Expertise</mat-card-title>
+        <p>
+            <b>Angular:</b> With a deep understanding of Angular, I excel at creating dynamic, responsive, and
+            interactive web
+            applications. I'm experienced in building rich front-end experiences that engage users and enhance their
+            online journeys.
+        </p>
+
+        <p>
+            <b>ASP.NET Core:</b> On the server-side, my proficiency in ASP.NET Core allows me to craft robust, scalable,
+            and
+            secure back-end systems. I'm adept at designing APIs, implementing authentication, and ensuring the
+            reliability of web applications.
+        </p>
+
+        <mat-card-title>Skills:</mat-card-title>
+        <p>
+            <li *ngFor="let skill of skills">{{skill}}</li>
+        </p>
+
+        <mat-card-title>Education:</mat-card-title>
+        <p>
+            <li><strong>Bachelor of Technology (B.Tech)</strong> in Computer Science Engineering</li>
+            <li style="margin-left: 20px;"><strong>Institution:</strong> Rajasthan Institute of Engineering and
+                Technology,
+                Jaipur</li>
+            <li style="margin-left: 20px;"><strong>Year of Completion:</strong> 2016</li>
+        </p>
+        <mat-card-title>Let's Connect</mat-card-title>
+        <p>
+            This website serves as my portfolio, a window into my world of coding, problem-solving, and innovation. If
+            you're looking for a skilled Software Engineer to join your team, collaborate on a project, or simply want
+            to connect, feel free to reach out. I'm always eager to explore new opportunities and challenges.
+        </p>
+        <p>
+            Thank you for visiting, and I look forward to connecting with you!
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <!-- <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button> -->
+        <p style="margin-left: 10px;"><b>Email:- </b><a href="mailto:jadaunharsh92@gmail.com">Harsh Pratap Singh</a></p>
+    </mat-card-actions>
+</mat-card>

@@ -1,0 +1,76 @@
+<mat-card class="contact-card">
+    <mat-card-header>
+        <mat-card-title>Contact Us</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>Hello! I'm Harsh Pratap Singh, a seasoned Software Engineer with a passion for crafting
+            innovative solutions. If you'd like to get in touch, whether it's for potential collaborations, job
+            opportunities, or just a friendly conversation, I'm just an email away.</p>
+
+        <p>Please feel free to reach out to me. I'm always excited to connect with like-minded individuals and explore
+            new opportunities. Your ideas and inquiries are valuable to me. Let's start a conversation.</p>
+
+        <p>
+            <li><strong>Email:</strong> jadaunharsh92@gmail.com</li>
+            <li><strong>LinkedIn:</strong> jadaunharsh92@gmail.com</li>
+            <li><strong>Twitter:</strong> jadaunharsh92@gmail.com</li>
+        </p>
+
+        <p>
+            If you prefer a more formal means of communication or would like to discuss something specific, you can use
+            the contact form below. I'll get back to you as soon as possible.
+        </p>
+
+        <form class="contact-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+            <table class="contact-full-width" cellspacing="0">
+                <tr>
+                    <td><mat-form-field class="contact-full-width">
+                            <mat-label>Name</mat-label>
+                            <input matInput>
+                        </mat-form-field></td>
+                    <td><mat-form-field class="contact-full-width">
+                            <mat-label>Email Id</mat-label>
+                            <input matInput>
+                        </mat-form-field></td>
+                </tr>
+            </table>
+
+            <p>
+                <mat-form-field class="contact-full-width">
+                    <mat-label>Message</mat-label>
+                    <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+                </mat-form-field>
+            </p>
+
+            <table class="contact-full-width" cellspacing="0">
+                <tr style="text-align: center;">
+                    <td>
+                        <button mat-raised-button color="primary" type="submit"
+                            [disabled]="contactForm.invalid">Submit</button>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+
+
+        <!-- <div class="container">
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+                <mat-form-field>
+                    <input matInput formControlName="name" placeholder="Name" required>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput formControlName="email" placeholder="Email" required>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <textarea matInput formControlName="message" placeholder="Message" required></textarea>
+                </mat-form-field>
+
+                <button mat-raised-button color="primary" type="submit" [disabled]="contactForm.invalid">Submit</button>
+            </form>
+        </div> -->
+
+    </mat-card-content>
+</mat-card>

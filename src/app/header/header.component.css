@@ -1,0 +1,28 @@
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1.portfolio-name {
+    margin-left: 8px;
+}
+
+h6.job-title-name {
+    margin-left: 65%;
+    font-size: small;
+}
+
+.portfolio-sidenav-container {
+    flex: 1;
+}
+
+.header-image {
+    background-image: url('../../assets/images/harshimg.jpg');
+    background-size: cover;
+    margin-bottom: 0;
+}

@@ -1,0 +1,11 @@
+<section class="portfolio">
+    <div class="project" *ngFor="let project of projects">
+        <img [src]="project.image" alt="{{ project.name }}" class="project-image">
+        <div class="project-details">
+            <h3 class="project-name">{{ project.name }}</h3>
+            <div *ngFor="let desc of project.description | keyvalue">
+                <p><strong>{{desc.key}}</strong>{{desc.value}}</p>
+            </div>
+        </div>
+    </div>
+</section>

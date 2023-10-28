@@ -1,0 +1,13 @@
+/* .about {
+    display: flex;
+} */
+
+.detail-card {
+    max-width: 90%;
+    margin: 0 5%;
+}
+
+.about-header-image {
+    background-image: url('../../assets/images/harshimg.jpg');
+    background-size: cover;
+}
