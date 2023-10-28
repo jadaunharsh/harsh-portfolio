@@ -16,7 +16,7 @@ export class PortfolioComponent {
         'Contact Information: ': 'Reach out to me through the "Contact" section, where you can find my email and social media links.',
         'Continuous Updates: ': 'I frequently update my portfolio to include new projects and keep you informed about my latest endeavors.'
       },
-      image: '/assets/images/HarshPortfolio.png',
+      image: '/assets/images/harshimg.png',
     },
     {
       name: 'Material Demo',
